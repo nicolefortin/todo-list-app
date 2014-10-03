@@ -1,3 +1,135 @@
+* { box-sizing: border-box;
+}
 
+#container {
+    max-width:960px;
+    margin:0px auto;
+    margin-top: 0%;
+    max-width:100%;
+}
 
-/*# sourceMappingURL=styles.css.map */
+header {
+  padding-bottom: 17%;}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 5em;
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+  text-align: center;
+  color: #e74c3c;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.15em;
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+  text-align: center;
+  color: #34495e;
+  text-transform: uppercase;
+}
+
+/*Left Bar Format*/
+#content{
+    float:left;
+    width:50%;
+    margin-top:3%;
+    line-height: 4em;
+    padding-left: 8%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Right Bar Format*/
+#sidebar {
+  width: 50%;
+  height:100%;
+  float:left;
+  margin-top:3%;
+}
+
+/*Form Modifications*/
+form {
+  float:left;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.task-list {
+  max-width:50%;
+}
+
+.task-list li {
+  float: left;
+  font-size:1.25em;
+  width:352px;
+  line-height: 2em;
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  color: #34495e;
+  letter-spacing: normal;
+}
+
+ul li:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+
+input:focus {
+  background: white;
+  color:#e74c3c;
+}
+
+.task-input {
+    background: white;
+    border: 1px double #DDD;
+    box-shadow: 0 0 2px #333;
+    color: #e74c3c;
+    outline: none;
+    height:50px;
+    width: 300px;
+    font: "Oswald", sans-serif;
+    font-size:1em;
+    padding-top: 3.5%;
+}
+
+.remove-task {
+  float:left;
+  padding-right: 10%;
+  font-size:3em;
+  color: #e74c3c;
+  vertical-align: middle;
+  margin-top:-2.5%;
+}
+ul {
+  padding: 0px;
+}
+
+.removetask {
+  float:left;
+  font-size:5em;
+}
+
+input[type="submit"] {
+    font-size: 2em;
+    height: 50px;
+    width:50px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #e74c3c;
+}
+
+input[type="submit"]:hover {
+    background-color: #e74c3c;
+    opacity:.9;
+}
+
+input[type="submit"]:active {
+    position:relative;
+}

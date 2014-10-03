@@ -1,0 +1,101 @@
+/* Media queries go here */
+@media screen and (max-width: 885px) {
+
+ #container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+#content {
+  width: 100%;
+  margin-bottom:-10%;
+}
+
+h2 {
+  width: 100%;
+}
+
+#sidebar {
+  width: 100%
+}
+
+ul .task-list {
+  width: 100%;
+}
+
+.task-list {
+  width:100%;
+}
+
+.task-list li {
+  width:115%;
+  margin-left:20%;
+
+}
+
+.task-input {
+  width: 50%;
+  margin-left:10%;
+}
+
+form {
+  width:100%;
+}
+
+ul {
+  width: 100%;
+}
+
+
+/* Media queries go here */
+@media screen and (max-width: 500px) {
+
+ #container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+#content {
+  width: 100%;
+  margin-bottom:-10%;
+}
+
+h2 {
+  font-size:1em;
+}
+
+#sidebar {
+  width: 100%
+}
+
+ul .task-list {
+  width: 100%;
+}
+
+.task-list {
+  width:100%;
+}
+
+.task-list li {
+  width:128%;
+  margin-left:20%;
+}
+
+.task-input {
+  width: 50%;
+  margin-left:10%;
+}
+
+form {
+  width:100%;
+}
+
+ul {
+  width: 100%;
+}
